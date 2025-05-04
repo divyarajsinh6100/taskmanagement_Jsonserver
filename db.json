@@ -1,237 +1,257 @@
 {
-    "users": [
-      {
-        "id": "08ba",
-        "fullName": "atqor",
-        "email": "atqor@gmail.com",
-        "password": "$2a$10$OAHzhQ.6937hbKDUtnmrm.b4VbfsxZDLhv7RRTc27Z4DoivMNAWtW",
-        "role": "admin"
-      },
-      {
-        "id": "99f1",
-        "fullName": "meditab",
-        "email": "meditab@gmail.com",
-        "password": "$2a$10$OAHzhQ.6937hbKDUtnmrm.b4VbfsxZDLhv7RRTc27Z4DoivMNAWtW",
-        "role": "admin"
-      },
-      {
-        "id": "5c6b",
-        "fullName": "dev",
-        "email": "dev@gmail.com",
-        "password": "$2a$10$OAHzhQ.6937hbKDUtnmrm.b4VbfsxZDLhv7RRTc27Z4DoivMNAWtW",
-        "role": "user"
-      },
-      {
-        "fullName": "devraj",
-        "email": "devraj@gmail.com",
-        "password": "123456",
-        "role": "user",
-        "id": "fRn61DR"
-      },
-      {
-        "id": "195a80b20e2",
-        "fullName": "mavubha",
-        "email": "mavubhaparmar@gmail.com",
-        "password": "$2b$10$NfrhSrAefx3XCjgrCEtdnukeBWWxGtaeXJ.jbM3nAp0rtqCirlGxi",
-        "role": "user"
-      },
-      {
-        "fullName": "test",
-        "email": "test@gmail.com",
-        "password": "123456",
-        "role": "user",
-        "id": "XMqdonq"
-      }
-    ],
-    "tasks": [
-      {
-        "id": "1a2b",
-        "title": "Design Landing Page",
-        "description": "Create a landing page design in Figma",
-        "dueDate": "2025-03-20",
-        "priority": "High",
-        "status": "In Progress",
-        "userId": "08ba"
-      },
-      {
-        "id": "2b3c",
-        "title": "Write Documentation",
-        "description": "Document API endpoints in Swagger",
-        "dueDate": "2025-03-25",
-        "priority": "Low",
-        "status": "Completed",
-        "userId": "08ba"
-      },
-      {
-        "id": "3c4d",
-        "title": "Dashboard",
-        "description": "Develop main dashboard UI",
-        "dueDate": "2025-03-22",
-        "priority": "Medium",
-        "status": "Todo",
-        "userId": "08ba"
-      },
-      {
-        "id": "4d5e",
-        "title": "Fix Navigation Bug 1",
-        "description": "Resolve navigation bar alignment issues",
-        "dueDate": "2025-03-18",
-        "priority": "High",
-        "status": "In Progress",
-        "userId": "08ba"
-      },
-      {
-        "id": "5e6f",
-        "title": "Optimize Queries",
-        "description": "Improve database query performance",
-        "dueDate": "2025-03-17",
-        "priority": "High",
-        "status": "Completed",
-        "userId": "08ba"
-      },
-      {
-        "id": "10j1k",
-        "title": "Add User Role Management",
-        "description": "Implement role-based access control",
-        "dueDate": "2025-03-24",
-        "priority": "High",
-        "status": "Completed",
-        "userId": "99f1"
-      },
-      {
-        "id": "11k2l",
-        "title": "Refactor Backend Code",
-        "description": "Improve code structure and remove redundancies",
-        "dueDate": "2025-03-19",
-        "priority": "Medium",
-        "status": "In Progress",
-        "userId": "99f1"
-      },
-      {
-        "id": "12l3m",
-        "title": "Setup CI/CD Pipeline",
-        "description": "Configure Jenkins for automated deployment",
-        "dueDate": "2025-03-27",
-        "priority": "High",
-        "status": "Todo",
-        "userId": "99f1"
-      },
-      {
-        "id": "13m4n",
-        "title": "Unit Testing",
-        "description": "Write unit tests for core modules",
-        "dueDate": "2025-03-29",
-        "priority": "Medium",
-        "status": "Todo",
-        "userId": "99f1"
-      },
-      {
-        "id": "14n5o",
-        "title": "Login Feature",
-        "description": "Fix issues in login page validation",
-        "dueDate": "2025-03-28",
-        "priority": "Medium",
-        "status": "In Progress",
-        "userId": "5c6b"
-      },
-      {
-        "id": "15o6p",
-        "title": "Create Logout Functionality",
-        "description": "Implement logout feature for session management",
-        "dueDate": "2025-03-30",
-        "priority": "Low",
-        "status": "Completed",
-        "userId": "5c6b"
-      },
-      {
-        "id": "16p7q",
-        "title": "Profile Page",
-        "description": "Develop user profile page UI",
-        "dueDate": "2025-03-26",
-        "priority": "Medium",
-        "status": "Todo",
-        "userId": "5c6b"
-      },
-      {
-        "id": "17q8r",
-        "title": "Dashboard Updates",
-        "description": "Enhance user dashboard with new widgets",
-        "dueDate": "2025-03-31",
-        "priority": "High",
-        "status": "Todo",
-        "userId": "5c6b"
-      }
-    ],
-    "userTaskCounts": [
-      {
-        "name": "John Doe",
-        "taskCount": 5
-      },
-      {
-        "name": "Jane Smith",
-        "taskCount": 8
-      },
-      {
-        "name": "Michael Brown",
-        "taskCount": 4
-      }
-    ],
-    "taskStatus": [
-      {
-        "status": "Todo",
-        "count": 10
-      },
-      {
-        "status": "In Progress",
-        "count": 5
-      },
-      {
-        "status": "Completed",
-        "count": 15
-      }
-    ],
-    "taskPriority": [
-      {
-        "priority": "Low",
-        "count": 8
-      },
-      {
-        "priority": "Medium",
-        "count": 12
-      },
-      {
-        "priority": "High",
-        "count": 10
-      }
-    ],
-    "taskCompletion": [
-      {
-        "day": "Day 1",
-        "count": 2
-      },
-      {
-        "day": "Day 2",
-        "count": 5
-      },
-      {
-        "day": "Day 3",
-        "count": 7
-      },
-      {
-        "day": "Day 4",
-        "count": 9
-      },
-      {
-        "day": "Day 5",
-        "count": 10
-      },
-      {
-        "day": "Day 6",
-        "count": 11
-      },
-      {
-        "day": "Day 7",
-        "count": 12
-      }
-    ]
-  }
+  "users": [
+    {
+      "id": "08ba",
+      "fullName": "test",
+      "email": "test@gmail.com",
+      "password": "$2a$10$OAHzhQ.6937hbKDUtnmrm.b4VbfsxZDLhv7RRTc27Z4DoivMNAWtW",
+      "role": "admin"
+    }
+  ],
+  "tasks": [
+    {
+      "id": "1a2b",
+      "title": "Design Landing Page",
+      "description": "Create a landing page design in Figma",
+      "dueDate": "2025-03-20",
+      "priority": "High",
+      "status": "Completed",
+      "userId": "08ba"
+    },
+    {
+      "id": "2b3c",
+      "title": "Write Documentation",
+      "description": "Document API endpoints in Swagger",
+      "dueDate": "2025-03-25",
+      "priority": "Low",
+      "status": "In Progress",
+      "userId": "08ba"
+    },
+    {
+      "id": "3c4d",
+      "title": "Dashboard",
+      "description": "Develop main dashboard UI",
+      "dueDate": "2025-03-22",
+      "priority": "Medium",
+      "status": "Todo",
+      "userId": "08ba"
+    },
+    {
+      "id": "4d5e",
+      "title": "Fix Navigation Bug 1",
+      "description": "Resolve navigation bar alignment issues",
+      "dueDate": "2025-03-18",
+      "priority": "High",
+      "status": "In Progress",
+      "userId": "08ba"
+    },
+    {
+      "id": "5e6f",
+      "title": "Optimize Queries",
+      "description": "Improve database query performance",
+      "dueDate": "2025-03-17",
+      "priority": "High",
+      "status": "Completed",
+      "userId": "08ba"
+    },
+    {
+      "id": "10j1k",
+      "title": "Add User Role Management",
+      "description": "Implement role-based access control",
+      "dueDate": "2025-03-24",
+      "priority": "High",
+      "status": "Completed",
+      "userId": "99f1"
+    },
+    {
+      "id": "11k2l",
+      "title": "Refactor Backend Code",
+      "description": "Improve code structure and remove redundancies",
+      "dueDate": "2025-03-19",
+      "priority": "Medium",
+      "status": "Completed",
+      "userId": "99f1"
+    },
+    {
+      "id": "12l3m",
+      "title": "Setup CI/CD Pipeline",
+      "description": "Configure Jenkins for automated deployment",
+      "dueDate": "2025-03-27",
+      "priority": "High",
+      "status": "In Progress",
+      "userId": "99f1"
+    },
+    {
+      "id": "13m4n",
+      "title": "Unit Testing",
+      "description": "Write unit tests for core modules",
+      "dueDate": "2025-03-29",
+      "priority": "Medium",
+      "status": "Todo",
+      "userId": "99f1"
+    },
+    {
+      "id": "14n5o",
+      "title": "Login Feature",
+      "description": "Fix issues in login page validation",
+      "dueDate": "2025-03-28",
+      "priority": "Medium",
+      "status": "To Do",
+      "userId": "5c6b"
+    },
+    {
+      "id": "15o6p",
+      "title": "Create Logout Functionality",
+      "description": "Implement logout feature for session management",
+      "dueDate": "2025-03-30",
+      "priority": "Low",
+      "status": "Completed",
+      "userId": "5c6b"
+    },
+    {
+      "id": "16p7q",
+      "title": "Profile Page",
+      "description": "Develop user profile page UI",
+      "dueDate": "2025-03-26",
+      "priority": "Medium",
+      "status": "Todo",
+      "userId": "5c6b"
+    },
+    {
+      "id": "17q8r",
+      "title": "Dashboard Updates",
+      "description": "Enhance user dashboard with new widgets",
+      "dueDate": "2025-03-31",
+      "priority": "High",
+      "status": "Todo",
+      "userId": "5c6b"
+    },
+    {
+      "title": "hello",
+      "description": "task",
+      "dueDate": "2025-05-16",
+      "priority": "Medium",
+      "status": "Todo",
+      "userId": "08ba",
+      "id": "-hd3AfQ"
+    },
+    {
+      "title": "new task",
+      "description": "new task created",
+      "dueDate": "2025-05-11",
+      "priority": "Medium",
+      "status": "Todo",
+      "userId": "08ba",
+      "id": "yPP2Rlh"
+    },
+    {
+      "title": "Home",
+      "description": "create a new home page ",
+      "dueDate": "2025-05-31",
+      "priority": "Medium",
+      "status": "In Progress",
+      "userId": "08ba",
+      "id": "EBCaeJe"
+    },
+    {
+      "title": "task",
+      "description": "task 1",
+      "dueDate": "2025-05-31",
+      "priority": "Medium",
+      "status": "Medium",
+      "userId": "08ba",
+      "id": "IGkGX4e"
+    },
+    {
+      "title": "Modal for task",
+      "description": "create a new modal fro add task ",
+      "dueDate": "",
+      "priority": "Medium",
+      "status": "Completed",
+      "userId": "08ba",
+      "id": "jXgKxHi"
+    },
+    {
+      "title": "dashboard",
+      "description": "dashboard ",
+      "dueDate": "",
+      "priority": "Low",
+      "status": "In Progress",
+      "userId": "08ba",
+      "id": "6XYyiOj"
+    },
+    {
+      "title": "car app",
+      "description": "create cr application ",
+      "dueDate": "2025-02-02",
+      "priority": "Medium",
+      "status": "Completed",
+      "userId": "08ba",
+      "id": "AA1kRNW"
+    },
+    {
+      "title": "about page",
+      "description": "create a about page ",
+      "dueDate": "2026-02-02",
+      "priority": "Medium",
+      "status": "In Progress",
+      "userId": "08ba",
+      "id": "6HOJ094"
+    },
+    {
+      "title": "hello app",
+      "description": "hello app with angular",
+      "dueDate": "",
+      "priority": "High",
+      "status": "In Progress",
+      "userId": "08ba",
+      "id": "53gGzvw"
+    },
+    {
+      "title": "hwllo app with rect",
+      "description": "create app with react",
+      "dueDate": "",
+      "priority": "Medium",
+      "status": "Todo",
+      "userId": "08ba",
+      "id": "pe0QCYp"
+    },
+    {
+      "title": "Home application",
+      "description": "create home app ",
+      "dueDate": "",
+      "priority": "Medium",
+      "status": "Todo",
+      "userId": "08ba",
+      "id": "zsZtxc_"
+    }
+  ],
+  "taskStatus": [
+    {
+      "status": "Todo",
+      "count": 10
+    },
+    {
+      "status": "In Progress",
+      "count": 5
+    },
+    {
+      "status": "Completed",
+      "count": 15
+    }
+  ],
+  "taskPriority": [
+    {
+      "priority": "Low",
+      "count": 8
+    },
+    {
+      "priority": "Medium",
+      "count": 12
+    },
+    {
+      "priority": "High",
+      "count": 10
+    }
+  ]
+}
